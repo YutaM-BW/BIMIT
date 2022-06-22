@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,31 +6,31 @@ using static System.Net.Mime.MediaTypeNames;
 
 public class TypingScript : MonoBehaviour {
 
-	//@–â‘è‚Ì“ú–{Œê•¶
-	private string[] qJ = { "–â‘è", "ƒeƒXƒg", "ƒ^ƒCƒsƒ“ƒO", "‚©‚ß‚­‚ß‚¿‚á‚ñ" };
-	//@–â‘è‚Ìƒ[ƒ}š•¶
+	//ã€€å•é¡Œã®æ—¥æœ¬èªæ–‡
+	private string[] qJ = { "å•é¡Œ", "ãƒ†ã‚¹ãƒˆ", "ã‚¿ã‚¤ãƒ”ãƒ³ã‚°", "ã‹ã‚ãã‚ã¡ã‚ƒã‚“" };
+	//ã€€å•é¡Œã®ãƒ­ãƒ¼ãƒå­—æ–‡
 	private string[] qR = { "monndai", "tesuto", "taipinngu", "kamekumechann" };
-	//@“ú–{Œê•\¦ƒeƒLƒXƒg
+	//ã€€æ—¥æœ¬èªè¡¨ç¤ºãƒ†ã‚­ã‚¹ãƒˆ
 	private Text UIJ;
-	//@ƒ[ƒ}š•\¦ƒeƒLƒXƒg
+	//ã€€ãƒ­ãƒ¼ãƒå­—è¡¨ç¤ºãƒ†ã‚­ã‚¹ãƒˆ
 	private Text UIR;
-	//@“ú–{Œê–â‘è
+	//ã€€æ—¥æœ¬èªå•é¡Œ
 	private string nQJ;
-	//@ƒ[ƒ}š–â‘è
+	//ã€€ãƒ­ãƒ¼ãƒå­—å•é¡Œ
 	private string nQR;
-	//@–â‘è”Ô†
+	//ã€€å•é¡Œç•ªå·
 	private int numberOfQuestion;
 
-	//@³‰ğ—¦‚ÌŒvZ
+	//ã€€æ­£è§£ç‡ã®è¨ˆç®—
 	correctAR = 100f * correctN / (correctN + mistakeN);
-	//@¬”“_ˆÈ‰º‚ÌŒ…‚ğ‡‚í‚¹‚é
+	//ã€€å°æ•°ç‚¹ä»¥ä¸‹ã®æ¡ã‚’åˆã‚ã›ã‚‹
 	UIcorrectAR.text = correctAR.ToString("0.00");
 
-// –â‘è‚ğo—Í‚·‚éƒƒ\ƒbƒh
+// å•é¡Œã‚’å‡ºåŠ›ã™ã‚‹ãƒ¡ã‚½ãƒƒãƒ‰
 	// Start is called before the first frame update
 	void Start()
 	{
-		//@ƒeƒLƒXƒgUI‚ğæ“¾
+		//ã€€ãƒ†ã‚­ã‚¹ãƒˆUIã‚’å–å¾—
 		UIJ = transform.Find("InputPanel/QuestionJ").GetComponent<Text>();
 		UIR = transform.Find("InputPanel/QuestionR").GetComponent<Text>();
 		UII = transform.Find("InputPanel/Input").GetComponent<Text>();
@@ -38,7 +38,7 @@ public class TypingScript : MonoBehaviour {
 		UImistake = transform.Find("DataPanel/Mistake").GetComponent<Text>();
 		UIcorrectAR = transform.Find("DataPanel/Correct Answer Rate").GetComponent<Text>();
 
-		//@ƒf[ƒ^‰Šú‰»ˆ—
+		//ã€€ãƒ‡ãƒ¼ã‚¿åˆæœŸåŒ–å‡¦ç†
 		correctN = 0;
 		UIcorrectA.text = correctN.ToString();
 		mistakeN = 0;
@@ -46,18 +46,18 @@ public class TypingScript : MonoBehaviour {
 		correctAR = 0;
 		UIcorrectAR.text = correctAR.ToString();
 
-		//@–â‘èo—Íƒƒ\ƒbƒh‚ğŒÄ‚Ô
+		//ã€€å•é¡Œå‡ºåŠ›ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å‘¼ã¶
 		OutputQ();
 	}
 
-	//@V‚µ‚¢–â‘è‚ğ•\¦‚·‚éƒƒ\ƒbƒh
+	//ã€€æ–°ã—ã„å•é¡Œã‚’è¡¨ç¤ºã™ã‚‹ãƒ¡ã‚½ãƒƒãƒ‰
 	void OutputQ()
 	{
 
-		//@–â‘è”“à‚Åƒ‰ƒ“ƒ_ƒ€‚É‘I‚Ô
+		//ã€€å•é¡Œæ•°å†…ã§ãƒ©ãƒ³ãƒ€ãƒ ã«é¸ã¶
 		numberOfQuestion = Random.Range(0, qJ.Length);
 
-		//@‘I‘ğ‚µ‚½–â‘è‚ğƒeƒLƒXƒgUI‚ÉƒZƒbƒg
+		//ã€€é¸æŠã—ãŸå•é¡Œã‚’ãƒ†ã‚­ã‚¹ãƒˆUIã«ã‚»ãƒƒãƒˆ
 		nQJ = qJ[numberOfQuestion];
 		nQR = qR[numberOfQuestion];
 		UIJ.text = nQJ;
@@ -65,19 +65,19 @@ public class TypingScript : MonoBehaviour {
 	}
 
 
-// –â‘è‚ğƒ^ƒCƒsƒ“ƒO‚·‚éƒƒ\ƒbƒh
-	//@–â‘è‚Ì‰½•¶š–Ú‚©
+// å•é¡Œã‚’ã‚¿ã‚¤ãƒ”ãƒ³ã‚°ã™ã‚‹ãƒ¡ã‚½ãƒƒãƒ‰
+	//ã€€å•é¡Œã®ä½•æ–‡å­—ç›®ã‹
 	private int indexOfString;
 
 	// Update is called once per frame
 	void Update()
 	{
-		//@¡Œ©‚Ä‚¢‚é•¶š‚ÆƒL[ƒ{[ƒh‚©‚ç‘Å‚Á‚½•¶š‚ª“¯‚¶‚©‚Ç‚¤‚©
+		//ã€€ä»Šè¦‹ã¦ã„ã‚‹æ–‡å­—ã¨ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã‹ã‚‰æ‰“ã£ãŸæ–‡å­—ãŒåŒã˜ã‹ã©ã†ã‹
 		if (Input.GetKeyDown(nQR[indexOfString].ToString()))
 		{
-			//@³‰ğ‚Ìˆ—‚ğŒÄ‚Ño‚·
+			//ã€€æ­£è§£æ™‚ã®å‡¦ç†ã‚’å‘¼ã³å‡ºã™
 			Correct();
-			//@–â‘è‚ğ“ü—Í‚µI‚¦‚½‚çŸ‚Ì–â‘è‚ğ•\¦
+			//ã€€å•é¡Œã‚’å…¥åŠ›ã—çµ‚ãˆãŸã‚‰æ¬¡ã®å•é¡Œã‚’è¡¨ç¤º
 			if (indexOfString >= nQR.Length)
 			{
 				OutputQ();
@@ -85,29 +85,29 @@ public class TypingScript : MonoBehaviour {
 		}
 		else if (Input.anyKeyDown)
 		{
-			//@¸”s‚Ìˆ—‚ğŒÄ‚Ño‚·
+			//ã€€å¤±æ•—æ™‚ã®å‡¦ç†ã‚’å‘¼ã³å‡ºã™
 			Mistake();
 		}
 	}
 
-	//@ƒ^ƒCƒsƒ“ƒO³‰ğ‚Ìˆ—
+	//ã€€ã‚¿ã‚¤ãƒ”ãƒ³ã‚°æ­£è§£æ™‚ã®å‡¦ç†
 	void Correct()
 	{
-		Debug.Log("³‰ğ");
+		Debug.Log("æ­£è§£");
 	}
 
-	//@ƒ^ƒCƒsƒ“ƒO¸”s‚Ìˆ—
+	//ã€€ã‚¿ã‚¤ãƒ”ãƒ³ã‚°å¤±æ•—æ™‚ã®å‡¦ç†
 	void Mistake()
 	{
-		Debug.Log("¸”s");
+		Debug.Log("å¤±æ•—");
 	}
 
-	//@³‰ğ—¦‚ÌŒvZˆ—
+	//ã€€æ­£è§£ç‡ã®è¨ˆç®—å‡¦ç†
 	void CorrectAnswerRate() {
-		Debug.Log("³‰ğ—¦ŒvZ");
-		//@³‰ğ—¦‚ÌŒvZ
+		Debug.Log("æ­£è§£ç‡è¨ˆç®—");
+		//ã€€æ­£è§£ç‡ã®è¨ˆç®—
 		correctAR = 100f * correctN / (correctN + mistakeN);
-		//@¬”“_ˆÈ‰º‚ÌŒ…‚ğ‡‚í‚¹‚é
+		//ã€€å°æ•°ç‚¹ä»¥ä¸‹ã®æ¡ã‚’åˆã‚ã›ã‚‹
 		UIcorrectAR.text = correctAR.ToString("0.00");
 	}
 }
