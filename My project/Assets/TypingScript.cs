@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
-using static System.Net.Mime.MediaTypeNames;
+using UnityEngine.UI;
 
 public class TypingScript : MonoBehaviour {
 
@@ -144,27 +142,3 @@ public class TypingScript : MonoBehaviour {
 	}
 }
 
-internal record NewStruct
-{
-    public NewStruct(object item1, object item2)
-    {
-        this.Item1 = item1;
-        this.Item2 = item2;
-    }
-
-    public void Deconstruct(out object item1, out object item2)
-    {
-        item1 = this.Item1;
-        item2 = this.Item2;
-    }
-
-    public static implicit operator (object, object)(NewStruct value)
-    {
-        return (value.Item1, value.Item2);
-    }
-
-    public static implicit operator NewStruct((object, object) value)
-    {
-        return new NewStruct(value.Item1, value.Item2);
-    }
-}
