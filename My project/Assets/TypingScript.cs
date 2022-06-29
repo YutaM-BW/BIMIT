@@ -20,13 +20,24 @@ public class TypingScript : MonoBehaviour {
 	private string nQR;
 	//　問題番号
 	private int numberOfQuestion;
+	//　入力した文字列テキスト
+	private Text UII;
+	//　正解数
+	private int correctN;
+	//　正解数表示用テキストUI
+	private Text UIcorrectA;
+	//　正解した文字列を入れておく
+	private string correctString;
+	//　失敗数
+	private int mistakeN;
+	//　失敗数表示用テキストUI
+	private Text UImistake;
+	//　正解率
+	private float correctAR;
+	//　正解率表示用テキストUI
+	private Text UIcorrectAR;
 
-	//　正解率の計算
-	correctAR = 100f * correctN / (correctN + mistakeN);
-	//　小数点以下の桁を合わせる
-	UIcorrectAR.text = correctAR.ToString("0.00");
-
-// 問題を出力するメソッド
+	// 問題を出力するメソッド
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -94,12 +105,33 @@ public class TypingScript : MonoBehaviour {
 	void Correct()
 	{
 		Debug.Log("正解");
+		//　正解数を増やす
+		correctN++;
+		UIcorrectA.text = correctN.ToString();
+		//　正解率の計算
+		CorrectAnswerRate();
+		//　正解した文字を表示
+		correctString += nQR[indexOfString].ToString();
+		UII.text = correctString;
+		//　次の文字を指す
+		indexOfString++;
 	}
 
 	//　タイピング失敗時の処理
 	void Mistake()
 	{
 		Debug.Log("失敗");
+		//　失敗数を増やす（同時押しにも対応させる）
+		mistakeN += Input.inputString.Length;
+
+		UImistake.text = mistakeN.ToString();
+		//　正解率の計算
+		CorrectAnswerRate();
+		//　失敗した文字を表示
+		if (Input.inputString != "")
+		{
+			UII.text = correctString + "<color=#ff0000ff>" + Input.inputString + "</color>";
+		}
 	}
 
 	//　正解率の計算処理
@@ -110,4 +142,29 @@ public class TypingScript : MonoBehaviour {
 		//　小数点以下の桁を合わせる
 		UIcorrectAR.text = correctAR.ToString("0.00");
 	}
+}
+
+internal record NewStruct
+{
+    public NewStruct(object item1, object item2)
+    {
+        this.Item1 = item1;
+        this.Item2 = item2;
+    }
+
+    public void Deconstruct(out object item1, out object item2)
+    {
+        item1 = this.Item1;
+        item2 = this.Item2;
+    }
+
+    public static implicit operator (object, object)(NewStruct value)
+    {
+        return (value.Item1, value.Item2);
+    }
+
+    public static implicit operator NewStruct((object, object) value)
+    {
+        return new NewStruct(value.Item1, value.Item2);
+    }
 }
