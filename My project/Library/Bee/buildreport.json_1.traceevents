@@ -1,0 +1,828 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1658866608521507, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866608523760, "dur": 36773, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866608560768, "dur": 3286422, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866611847206, "dur": 10490, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866620360126, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866620360391, "dur": 3408, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866620363803, "dur": 41251, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866620405089, "dur": 1621856, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866622026951, "dur": 2041776, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866624068731, "dur": 1728, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866624071409, "dur": 37, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1658866621452557, "dur": 538499, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658866621453645, "dur": 95876, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658866621969103, "dur": 5878, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658866621974986, "dur": 16059, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658866621975817, "dur": 14261, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658866622001252, "dur": 1752, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658866621995477, "dur": 7556, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866624072451, "dur": 660, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1658866622075594, "dur":1858, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866622077462, "dur":710, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1658866622078236, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1658866622078275, "dur":921, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1658866622079229, "dur":723, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866622079952, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624022109, "dur":303, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624022412, "dur":435, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624022847, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624022856, "dur":424, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624023281, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624023289, "dur":389, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624023678, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624023684, "dur":423, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624024108, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624024115, "dur":426, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624024542, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624024548, "dur":427, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624024975, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624024985, "dur":453, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624025439, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624025445, "dur":430, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624025875, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624025916, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624025971, "dur":5718, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1658866622078997, "dur":990, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622079989, "dur":5050, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622085052, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658866622085054, "dur":540, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622085601, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658866622085604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622094635, "dur":11565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658866622106205, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1658866622106290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622106301, "dur":13955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1658866622120356, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1658866622120435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622120449, "dur":288013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1658866622408524, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622408582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622408591, "dur":54517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622463192, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622463260, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622463266, "dur":101516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622570734, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622570881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622570891, "dur":104291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622675252, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622675310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622675320, "dur":66237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622741623, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622741678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622741687, "dur":59716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622801675, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622801753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622801763, "dur":34147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622835976, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622836032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622836042, "dur":70608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622906713, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622906778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866622906789, "dur":62334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866622969181, "dur":143551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866623112739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623112751, "dur":2569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866623115375, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866623115463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623115500, "dur":173763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866623289321, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866623289493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623289502, "dur":482589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658866623772144, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets14.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1658866623772352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623772360, "dur":74596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets14.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1658866623847030, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":1, "ts":1658866623847090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623847100, "dur":5057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":1, "ts":1658866623852238, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1658866623852695, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623852707, "dur":90450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1658866623943234, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1658866623943449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623943460, "dur":9300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1658866623952818, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level16" }}
+,{ "pid":12345, "tid":1, "ts":1658866623953140, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623953182, "dur":4210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level16" }}
+,{ "pid":12345, "tid":1, "ts":1658866623957444, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level14" }}
+,{ "pid":12345, "tid":1, "ts":1658866623957489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623957499, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level14" }}
+,{ "pid":12345, "tid":1, "ts":1658866623960647, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level10" }}
+,{ "pid":12345, "tid":1, "ts":1658866623960693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623960698, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level10" }}
+,{ "pid":12345, "tid":1, "ts":1658866623964060, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1658866623964124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658866623964133, "dur":6031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1658866623970219, "dur":51894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622079096, "dur":897, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622079993, "dur":5113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622085107, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1658866622085217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622087644, "dur":14025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1658866622101771, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1658866622101846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622101856, "dur":14017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1658866622116009, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1658866622116082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622116090, "dur":120076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1658866622236225, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622236297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622236368, "dur":98618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622335078, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622335158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622335673, "dur":82557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622418412, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622418517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622418563, "dur":129614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622548238, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622548294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622548302, "dur":64835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622613191, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622613241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622613249, "dur":68274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622681600, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622681652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622681661, "dur":146619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622828335, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622828393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622828402, "dur":50763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622879236, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622879295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622879305, "dur":42142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622921613, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622921667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622921676, "dur":53311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622975540, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866622975618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866622975628, "dur":69611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623045298, "dur":68337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623113641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623113654, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623115264, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623115395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623115404, "dur":56573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623172032, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623172171, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623172183, "dur":159096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623331355, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623331502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623331513, "dur":110842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623442412, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623442539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623442548, "dur":68962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658866623511566, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1658866623511627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623511687, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1658866623513610, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623513674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623513684, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623515714, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623515776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623515787, "dur":9699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623525704, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623525768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623525779, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623527480, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623527533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623527541, "dur":12910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623540513, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623540577, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623540589, "dur":19486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623560150, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets23.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623560341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623560353, "dur":25487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets23.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623585902, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623585960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623585968, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623587340, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623587387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623587399, "dur":6611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623594201, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1658866623594284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623594294, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1658866623596414, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623596520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623596530, "dur":22069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623618666, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets19.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623618721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623618731, "dur":147323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets19.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623766131, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets15.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623766311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623766321, "dur":63417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets15.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623829801, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623829859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623829868, "dur":3779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1658866623833727, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623833932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623833941, "dur":70173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623904209, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level9.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623904275, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623904291, "dur":4480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level9.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623908832, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1658866623908891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623908903, "dur":4924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1658866623913891, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level5.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623913940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623913951, "dur":7203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level5.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623921224, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623921275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623921280, "dur":8006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623929340, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level24" }}
+,{ "pid":12345, "tid":2, "ts":1658866623929388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623929397, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level24" }}
+,{ "pid":12345, "tid":2, "ts":1658866623933159, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level22.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623933220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623933229, "dur":9485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level22.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623942767, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623942816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623942822, "dur":4158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623947029, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level18" }}
+,{ "pid":12345, "tid":2, "ts":1658866623947075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623947080, "dur":5347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level18" }}
+,{ "pid":12345, "tid":2, "ts":1658866623952500, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level16.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623952559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623952569, "dur":5607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level16.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623958233, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level12" }}
+,{ "pid":12345, "tid":2, "ts":1658866623958279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623958285, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level12" }}
+,{ "pid":12345, "tid":2, "ts":1658866623960713, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623960762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623960768, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1658866623964115, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1658866623964237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658866623964243, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1658866623969643, "dur":52446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622079356, "dur":725, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622080081, "dur":5023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622085105, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1658866622085244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622093208, "dur":18180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1658866622111474, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1658866622111551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622111562, "dur":286340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1658866622397974, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622398054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622398064, "dur":60150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622458296, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622458428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622458438, "dur":32291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622490790, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622490891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622490901, "dur":47639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622539108, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622539252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622539263, "dur":151656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622690991, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622691048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622691059, "dur":34135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622725253, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622725319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622725327, "dur":77240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622802658, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622802721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622802732, "dur":70078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622872930, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622873009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622873031, "dur":59735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622932892, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622932950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866622932960, "dur":57079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866622990095, "dur":109976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866623100079, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623100092, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866623102650, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866623102775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623102784, "dur":98342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866623201178, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866623201304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623201313, "dur":83604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866623284975, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866623285125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623285136, "dur":223978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658866623509174, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1658866623509792, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623510396, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1658866623511797, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623511867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623511873, "dur":10371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623522307, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623522366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623522376, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623523967, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623524023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623524032, "dur":13727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623537831, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623537899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623537912, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623540976, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623541040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623541048, "dur":15646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623556776, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets24.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623556865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623556888, "dur":29106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets24.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623586046, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets20.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623586096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623586102, "dur":154567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets20.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623740786, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623740860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623740873, "dur":10853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623751791, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623751850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623751862, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623755426, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623755474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623755485, "dur":16440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623771981, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623772035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623772044, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623774188, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623774242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623774251, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623777381, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets13.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623777550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623777561, "dur":82546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets13.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623860185, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623860257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623860267, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658866623862555, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623862896, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623862919, "dur":61232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623924219, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level25.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623924272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623924278, "dur":5003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level25.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623929344, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level23.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623929395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623929401, "dur":3736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level23.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623933202, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level22" }}
+,{ "pid":12345, "tid":3, "ts":1658866623933255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623933299, "dur":4950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level22" }}
+,{ "pid":12345, "tid":3, "ts":1658866623938334, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level20.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623938405, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623938419, "dur":5859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level20.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623944349, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level19" }}
+,{ "pid":12345, "tid":3, "ts":1658866623944406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623944415, "dur":9318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level19" }}
+,{ "pid":12345, "tid":3, "ts":1658866623953804, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level15" }}
+,{ "pid":12345, "tid":3, "ts":1658866623953855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623953863, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level15" }}
+,{ "pid":12345, "tid":3, "ts":1658866623957856, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level12.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623957913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623957918, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level12.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623961370, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623961418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658866623961423, "dur":26014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658866623987753, "dur":34314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622079212, "dur":856, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622080068, "dur":4981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622085052, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1658866622085164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622086813, "dur":14846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1658866622102442, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1658866622102604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622102616, "dur":132157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1658866622234841, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1658866622234912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622234924, "dur":13619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1658866622248625, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame.exe" }}
+,{ "pid":12345, "tid":4, "ts":1658866622248706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622248714, "dur":78229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame.exe" }}
+,{ "pid":12345, "tid":4, "ts":1658866622327334, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1658866622327499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622328651, "dur":24628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1658866622353347, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622353446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622353455, "dur":39129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622392646, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622392705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622392715, "dur":62850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622455653, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622455951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622455963, "dur":40822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622496876, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622496974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622496984, "dur":87955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622585005, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622585074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622585084, "dur":241780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622826989, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622827048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622827056, "dur":52214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622879320, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622879515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622879521, "dur":38376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622917954, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866622918006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866622918014, "dur":101958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866623020025, "dur":60147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866623080192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623080203, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866623082331, "dur":35316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866623117653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623117663, "dur":116822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866623234534, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866623234663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623234671, "dur":148687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866623383407, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866623383457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623383465, "dur":150518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658866623534050, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623534129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623534139, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623536454, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623536533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623536547, "dur":12490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623549109, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623549173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623549182, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623552637, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets25.resource" }}
+,{ "pid":12345, "tid":4, "ts":1658866623552698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623552708, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets25.resource" }}
+,{ "pid":12345, "tid":4, "ts":1658866623555581, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets25.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623555634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623555640, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets25.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623557062, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets24.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623557119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623557126, "dur":3956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets24.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623561143, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623561191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623561200, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623562730, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets22.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623562791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623562802, "dur":47747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets22.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623610632, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623610712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623610721, "dur":132758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623743546, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623743609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623743657, "dur":3101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623746828, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets17.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623747021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623747035, "dur":134211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets17.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623881308, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623881365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623881374, "dur":8109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623890150, "dur":6844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1658866623897001, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623897013, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1658866623898832, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623898897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623898909, "dur":6156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1658866623905153, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level8" }}
+,{ "pid":12345, "tid":4, "ts":1658866623905209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623905220, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level8" }}
+,{ "pid":12345, "tid":4, "ts":1658866623908344, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level7.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623908397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623908407, "dur":5767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level7.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623914221, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1658866623914266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623914275, "dur":10840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1658866623925170, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level24.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623925216, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623925230, "dur":17241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level24.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623947232, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level17.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623947316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623947323, "dur":10317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level17.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658866623957692, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level13" }}
+,{ "pid":12345, "tid":4, "ts":1658866623957771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623957778, "dur":3427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level13" }}
+,{ "pid":12345, "tid":4, "ts":1658866623961304, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1658866623961386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658866623961394, "dur":6830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1658866623968275, "dur":53826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622079301, "dur":772, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622080073, "dur":4975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622085052, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1658866622085183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622086752, "dur":148691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1658866622235495, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1658866622235544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622235553, "dur":6346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1658866622241957, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1658866622242013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622242021, "dur":146751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1658866622388843, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622388909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622388919, "dur":74051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622463091, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622463184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622463193, "dur":31278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622494537, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622494601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622494612, "dur":53251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622547926, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622547979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622547987, "dur":70964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622619023, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622619120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622619178, "dur":73316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622692564, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622692633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622692643, "dur":40248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622732957, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622733016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622733026, "dur":70307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622803391, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622803653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622803664, "dur":105261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622908982, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622909040, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622909050, "dur":30617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622939732, "dur":59882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866622999621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866622999632, "dur":18287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623017975, "dur":19651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623037632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623037642, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623039786, "dur":3429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623043222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623043232, "dur":4861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623048149, "dur":3037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623051193, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623051212, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623052822, "dur":53092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623105921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623105932, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623107647, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623107773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623107783, "dur":391395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623499266, "dur":151436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623650714, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623650732, "dur":102555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658866623753355, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets16.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623753519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623753531, "dur":61620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets16.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623815274, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658866623815345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623815356, "dur":4669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658866623820092, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623820243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623820253, "dur":84307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623904641, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level8.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623904735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623904740, "dur":5771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level8.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623910635, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1658866623910718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623910735, "dur":13200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1658866623923988, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1658866623924074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623924082, "dur":5257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1658866623929400, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level23" }}
+,{ "pid":12345, "tid":5, "ts":1658866623929450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623929455, "dur":7560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level23" }}
+,{ "pid":12345, "tid":5, "ts":1658866623937073, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level21" }}
+,{ "pid":12345, "tid":5, "ts":1658866623937124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623937134, "dur":6449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level21" }}
+,{ "pid":12345, "tid":5, "ts":1658866623943658, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level19.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623943714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623943722, "dur":9031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level19.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623953137, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level15.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623953257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623953264, "dur":4151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level15.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623957473, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level13.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623957525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623957530, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level13.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623960561, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level10.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623960636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623960644, "dur":4165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level10.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658866623964876, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1658866623965047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658866623965056, "dur":4518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1658866623969633, "dur":52433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622079328, "dur":749, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622080077, "dur":4985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622085063, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1658866622085199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622086978, "dur":24477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1658866622111527, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1658866622111630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622111742, "dur":4107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1658866622115936, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1658866622116005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622116016, "dur":120348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1658866622236430, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622236498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622236619, "dur":114159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622350851, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622350923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622350997, "dur":35702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622386917, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622387092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622387104, "dur":159078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622546244, "dur":161028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622707281, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622707293, "dur":8481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622715836, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622715900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622715909, "dur":55334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622771302, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622771378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622771388, "dur":38091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622809547, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622809640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622809651, "dur":30031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622839740, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622839795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622839804, "dur":35198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622875079, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866622875142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866622875153, "dur":127670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623002918, "dur":210497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623213421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866623213430, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623215483, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623215627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866623215665, "dur":34232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623249958, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623250084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866623250094, "dur":45357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623295507, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623295642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866623295652, "dur":55527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623351243, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623351397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866623351406, "dur":114525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623465987, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866623466107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658866623466116, "dur":555825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658866624022008, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1658866624022011, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622079182, "dur":859, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622080041, "dur":5064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622085105, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1658866622085232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622087965, "dur":309199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1658866622397264, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622397342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622397352, "dur":45525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622442939, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622442997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622443007, "dur":44780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622487849, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622487915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622487925, "dur":114267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622602298, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622602360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622602369, "dur":43480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622645908, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622645971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622645982, "dur":43281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622689339, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622689406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622689416, "dur":47751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622737273, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622737335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622737344, "dur":65621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622803028, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622803094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622803104, "dur":49927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622853088, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622853139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622853148, "dur":36953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622890186, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622890249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622890258, "dur":30462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622920778, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866622920837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866622920846, "dur":133270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623054173, "dur":26335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623080513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623080523, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623082481, "dur":1424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623083912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623083924, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623085804, "dur":29915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623115723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623115730, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623119358, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623119501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623119510, "dur":159443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623279002, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623279120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623279129, "dur":259074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658866623538269, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623538333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623538342, "dur":16967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623555370, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets25.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623555422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623555431, "dur":14064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets25.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623569569, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":7, "ts":1658866623569633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623569647, "dur":5354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":7, "ts":1658866623575064, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets21.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623575125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623575134, "dur":167070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets21.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623742283, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets18.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623742354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623742388, "dur":54455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets18.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623796910, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":7, "ts":1658866623796964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623796974, "dur":7536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":7, "ts":1658866623804574, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets12.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623804708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623804717, "dur":80487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/sharedassets12.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623885261, "dur":2182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1658866623887451, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623887464, "dur":2911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1658866623890562, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623890651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623890663, "dur":13888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623904619, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level9" }}
+,{ "pid":12345, "tid":7, "ts":1658866623904690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623904697, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level9" }}
+,{ "pid":12345, "tid":7, "ts":1658866623909082, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level6.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623909187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623909192, "dur":8128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level6.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623917389, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level4.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623917440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623917449, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level4.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623921211, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1658866623921258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623921265, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1658866623925083, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level25" }}
+,{ "pid":12345, "tid":7, "ts":1658866623925140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623925150, "dur":8410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level25" }}
+,{ "pid":12345, "tid":7, "ts":1658866623933611, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level21.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623933656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623933661, "dur":8781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level21.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623942510, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level20" }}
+,{ "pid":12345, "tid":7, "ts":1658866623942569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623942577, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level20" }}
+,{ "pid":12345, "tid":7, "ts":1658866623946975, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level18.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623947031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623947039, "dur":6891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level18.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623953984, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level14.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623954031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623954036, "dur":5326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level14.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658866623959426, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level11" }}
+,{ "pid":12345, "tid":7, "ts":1658866623959479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623959488, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level11" }}
+,{ "pid":12345, "tid":7, "ts":1658866623961720, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1658866623961802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658866623961809, "dur":6152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1658866623968030, "dur":54061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622079378, "dur":707, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622080085, "dur":4978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622085064, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1658866622085167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622086762, "dur":26815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1658866622113670, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1658866622113740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622113751, "dur":123404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1658866622237229, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622237303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622237311, "dur":252529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622489912, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622490087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622490104, "dur":98960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622589125, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622589272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622589281, "dur":77837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622667181, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622667238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622667248, "dur":57630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622725006, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622725085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622725095, "dur":85181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622810336, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622810409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622810418, "dur":33684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622844252, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622844589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622844600, "dur":47897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622892549, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622892606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866622892658, "dur":79468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866622972185, "dur":91121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623063313, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866623063324, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623065340, "dur":27023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623092405, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866623092418, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623095670, "dur":22118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623117791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866623117798, "dur":56631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623174502, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623174629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866623174638, "dur":129048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623303753, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623303990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866623304000, "dur":143105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623447167, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623447312, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866623447321, "dur":502091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658866623949469, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level17" }}
+,{ "pid":12345, "tid":8, "ts":1658866623949531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866623949540, "dur":9203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level17" }}
+,{ "pid":12345, "tid":8, "ts":1658866623958832, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level11.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658866623959005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658866623959016, "dur":12892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/81806/Desktop/BIMIT-Games/QuizGame_Data/level11.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658866623971968, "dur":50149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658866624038575, "dur":3799, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1658866624073246, "dur": 1143, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658866624071386, "dur": 3040, "ph": "X", "name": "Write chrome-trace events", "args": {} },

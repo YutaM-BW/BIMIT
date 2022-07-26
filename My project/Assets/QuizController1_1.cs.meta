@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1e048582cb22d064cb1ec34ca77c3b90
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - QuestionButton: {instanceID: 0}
+  - CorrectButton: {instanceID: 0}
+  - WrongButton: {instanceID: 0}
+  - CorrectSound: {instanceID: 0}
+  - WrongSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
